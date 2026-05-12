@@ -1,3 +1,4 @@
+
 # Parkinson's Terminology Project
 
 Predicting severe and worsening Parkinson's disease trajectories from vocal acoustic measurements.
@@ -45,3 +46,6 @@ models = get_models()
 trained = train_and_evaluate(models, X_tr_s, X_tr_p, y_train_bal, X_te_s, X_te_p, y_test)
 generate_comparison_table(trained, y_test)
 ```
+=======
+# Parkinsons_Telemonitoring_ML
+Desined a machine learning pipeline to predict the Parkinson's progress using voice measurements.
